@@ -8,6 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class SpringrestApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
+		System.out.println("Hello...First Commit");
 		SpringApplication.run(SpringrestApplication.class, args);
 	}
 
